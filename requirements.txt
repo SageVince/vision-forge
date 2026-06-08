@@ -1,0 +1,17 @@
+# VisionForge Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image recognition
+transformers>=4.35.0
+Pillow>=10.0.0
+
+# Image generation
+diffusers>=0.24.0
+accelerate>=0.24.0
+
+# Optional: faster attention (CUDA only)
+# xformers>=0.0.22
